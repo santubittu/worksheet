@@ -199,7 +199,7 @@
         // Initialize Firebase and set up authentication
         async function initializeFirebase() {
             try {
-                console.log("Initializing Firebase app...");
+                console.log("Initializing Firebase app with config:", firebaseConfig); // Log config
                 const app = initializeApp(firebaseConfig);
                 console.log("Firebase app initialized successfully.");
 
